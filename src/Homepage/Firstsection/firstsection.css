@@ -1,0 +1,193 @@
+.bg-container {
+  position: relative;
+
+  display: flex;
+}
+.bg {
+  width: 100%;
+  display: block;
+}
+.new {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: 17;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.clicks {
+  width: 60%;
+  height: 96%;
+}
+
+.background {
+}
+.background1 {
+}
+.bg1 {
+  position: relative;
+  z-index: -2;
+}
+
+.im2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  z-index: -1;
+  display: block;
+}
+.im2 img {
+  width: 215px;
+  margin-top: 20vh;
+  margin-left: 27vw;
+}
+
+.background2 {
+  position: relative;
+}
+.infos {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  left: 0;
+  bottom: 0;
+}
+.infos .drop {
+  max-width: 500px;
+  margin-left: 180px;
+  margin-top: 100px;
+}
+.links {
+  margin-top: 20px;
+  margin-left: 180px;
+}
+.links img {
+  height: 50px;
+  margin-right: 20px;
+}
+.viewon {
+  margin-left: 180px;
+  margin-top: 30px;
+  width: 250px;
+  height: 60px;
+  border: 1px solid black;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.viewon img {
+  height: 40px;
+}
+.im3 {
+}
+.respbg {
+  display: none;
+}
+
+.box {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+.man-c {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  z-index: 10;
+  justify-content: flex-end;
+}
+.test {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+  justify-content: flex-end;
+  align-items: center;
+  left: 0;
+  bottom: 0;
+}
+.test img {
+  margin-top: 130px;
+  max-width: 50vw;
+}
+
+.box .man {
+  height: 80%;
+}
+.box .respman {
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  .infos .drop {
+    max-width: 400px;
+    margin-left: 70px;
+    margin-top: 100px;
+  }
+  .links {
+    margin-top: 30px;
+    margin-left: 110px;
+  }
+  .links img {
+    height: 50px;
+    margin-right: 20px;
+  }
+  .viewon {
+    width: 300px;
+    margin-left: 100px;
+  }
+  .bg1 {
+    position: relative;
+    z-index: -2;
+  }
+  .im2 img {
+  }
+  .im2 img {
+    width: 180px;
+    margin-top: 20vh;
+    margin-left: 10vw;
+  }
+
+  .test {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .test img {
+    margin-bottom: 220px;
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .bg {
+    width: 100%;
+    display: none;
+  }
+  .respbg {
+    width: 100%;
+    display: block;
+  }
+  .box .man {
+    display: none;
+  }
+  .box .respman {
+    display: block;
+    margin-top: 20px;
+    height: 620px;
+  }
+}
